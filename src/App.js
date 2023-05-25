@@ -20,11 +20,11 @@ function App() {
           
       <NavCompleto/>
       <Carrusel/>
-      <Video/>
+      
 
       <BrowserRouter>
       <Inicio/>
-     
+      <Video/>
         <Routes >
         
           <Route path='/Rick and Morty' element={<Mainpage />}></Route>
