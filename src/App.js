@@ -13,7 +13,6 @@ import UserPage from './Components/UserPage';
 import Inicio from './Components/Inicio';
 import Video from './Components/Video'
 
-
 function App() {
   return (
     <>
@@ -24,7 +23,7 @@ function App() {
 
       <BrowserRouter>
       <Inicio/>
-      <Video/>
+     
         <Routes >
         
           <Route path='/Rick and Morty' element={<Mainpage />}></Route>
@@ -34,7 +33,7 @@ function App() {
           
         </Routes>
       </BrowserRouter>
-
+      <Video/>
       <Formulario />
       <Footer />
     </>
