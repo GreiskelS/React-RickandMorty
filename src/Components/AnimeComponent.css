@@ -3,6 +3,8 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
+  position: relative;
+  overflow: hidden;
 }
 
 .anime-card {
@@ -15,13 +17,13 @@
   align-items: center;
   text-align: center;
   transition: transform 0.3s ease;
-  
+  position: relative;
 }
 
 .anime-card:hover {
   transform: translateY(-10px);
   transform: translate(0, -10px);
-  
+ 
 }
 
 .anime-card img {
@@ -30,6 +32,7 @@
   border-radius: 4px;
   margin-bottom: 10px;
   cursor: pointer;
+  object-fit: contain;
 }
 
 .anime-card h3 {
@@ -40,6 +43,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  position: relative;
 }
 
 .anime-card p {
@@ -58,6 +62,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .modal-content-anime {
@@ -66,6 +71,7 @@
   max-width: 400px;
   text-align: center;
   border-radius: 8px;
+  position: fixed;
 }
 
 .modal-content-anime h2 {

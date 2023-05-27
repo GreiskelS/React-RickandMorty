@@ -10,13 +10,13 @@ const Mainpage = () => {
     }, [])
 
     return (
-        <div className="contenedor">
+        <div className="contenedor-card">
             {characters != null ? (
                 characters.map(characters => (
                     <div key={characters.id}>
-                        <div class="cardapp">
+                        <div className="cardapp">
                             <img src={characters.image} alt="" />
-                            <div class="cardapp-body">
+                            <div className="cardapp-body">
                                 <a href={`/characters/${characters.id}`}>➡️ {characters.name}</a>
                             </div>
                         </div>

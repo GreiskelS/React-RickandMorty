@@ -29,8 +29,8 @@ const AnimePage = () => {
   };
 
   return (
-    <div className="container">
-      <h1>Anime List</h1>
+    <>
+      <h1>Top Anime</h1>
       <div className="anime-grid">
         {animeList.map((anime, index) => (
           <div
@@ -53,7 +53,7 @@ const AnimePage = () => {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 

@@ -1,15 +1,16 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route,Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Inicio.css';
+
 const Inicio = () => {
   return (
-    <div>
+    <>
       <nav>
         <ul>
-        <li>
+          <li>
             <Link to="/Inicio"></Link>
           </li>
-        <li>
+          <li>
             <Link to="/Rick and Morty"></Link>
           </li>
           <li>
@@ -20,7 +21,7 @@ const Inicio = () => {
           </li>
         </ul>
       </nav>
-    </div>
+    </>
   )
 }
 

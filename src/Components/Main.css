@@ -5,7 +5,7 @@
   justify-content: center;
 }
 
-.contenedor {  
+.contenedor-card {  
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
@@ -18,9 +18,9 @@
   animation: animado 10s infinite;
   overflow: hidden;
   position: relative;
-}
+ }
 
-.contenedor a {
+.contenedor-card a {
   text-decoration: none;
   font-size: 17px;
   color: #ffffff;
@@ -85,7 +85,7 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
-  .contenedor {
+  .contenedor-card {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -94,7 +94,7 @@ p {
     margin: 0;
   }
 
-  .contenedor img {
+  .contenedor-card img {
     margin-left: 0px;
 
   }
