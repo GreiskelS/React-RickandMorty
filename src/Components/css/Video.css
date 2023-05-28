@@ -1,0 +1,21 @@
+#video {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 60px;
+  border: none;
+}
+
+@media screen and (max-width: 1300px) {
+  #video {
+    height: 600px;
+    width: 100%;
+  }
+}/*# sourceMappingURL=Video.css.map */

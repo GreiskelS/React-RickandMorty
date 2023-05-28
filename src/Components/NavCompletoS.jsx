@@ -1,14 +1,14 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './NavCompleto.css';
+import './css/NavCompleto.css';
 
 function NavCompletoS() {
   return (
     <div id="navCom">
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='fluidcontent'>
-      <div className='logo'>
-          <img className="logo" src="/logo.png" height="70px" alt="RickandMortyReact" href="/Inicio" />
+      <div>
+          <img className="logo" src="./logo.png" height="70px" alt="RickandMortyReact" href="/Inicio" />
       </div>
       <Container className='fluid'>
         <Navbar.Brand href="/Inicio">Home</Navbar.Brand>

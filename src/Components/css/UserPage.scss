@@ -4,6 +4,17 @@
   
 }
 
+.button-container{
+  button{
+    background-color: #2c1bad;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  };
+  button:hover {
+    background-color: #52489c;
+  }
+}
 
 
 @media only screen and (max-width: 600px) {

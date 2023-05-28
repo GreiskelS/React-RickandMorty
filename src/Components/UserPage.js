@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-import './UserPage.css';
+import './css/UserPage.css';
 
 const UserPage = () => {
   const [users, setUsers] = useState([]);

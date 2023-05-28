@@ -18,15 +18,14 @@
   animation: animado 10s infinite;
   overflow: hidden;
   position: relative;
+   a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+    z-index: 3;
+    text-shadow: 2px 2px 2px black;
+  }
  }
-
-.contenedor-card a {
-  text-decoration: none;
-  font-size: 17px;
-  color: #ffffff;
-  z-index: 3;
-  text-shadow: 2px 2px 2px black;
-}
 
 .cardapp {
   object-fit: contain;
@@ -39,11 +38,7 @@
   background: rgba(10, 10, 10, 0.208);
   margin-bottom: 30px;
   margin-left: 40px;
-}
-
-.cardapp:hover {
-  box-shadow: 8px 8px 8px rgba(255, 254, 254, 0.474);
-}
+ }
 
 .cardapp-img {
   align-items: center;
@@ -53,12 +48,14 @@
   transition: all 300ms;
   border-radius: 18px 18px 0px 0px;
   border-style: ridge;
+  img:hover {
+    transform: scale(1.1);
+    transition-duration: 5s;
+    box-shadow: 8px 8px 8px rgba(255, 254, 254, 0.673);
+  }
 }
-
-.cardapp img:hover {
-  transform: scale(1.1);
-  transition-duration: 5s;
-  box-shadow: 8px 8px 8px rgba(255, 254, 254, 0.673);
+.cardapp:hover {
+  box-shadow: 8px 8px 8px rgba(255, 254, 254, 0.474);
 }
 
 .cardapp-body {
@@ -67,11 +64,10 @@
   background: rgb(250, 250, 250);
   position: relative;
   transition: all 350ms;
-}
-
-.cardapp-body:hover {
+  body:hover {
   transform: scale(1.1);
   box-shadow: 8px 8px 8px rgba(255, 254, 254, 0.673);
+}
 }
 
 h5 {
@@ -88,17 +84,14 @@ p {
   .contenedor-card {
     grid-template-columns: repeat(2, 1fr);
   }
-
   a {
     font-size: medium;
     margin: 0;
   }
-
   .contenedor-card img {
     margin-left: 0px;
 
   }
-
   .cardapp {
     text-align: center;
     margin-left: 15px;

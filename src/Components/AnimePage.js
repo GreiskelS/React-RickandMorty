@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './AnimeComponent.css';
+import './css/AnimeComponent.css';
 
 const AnimePage = () => {
   const [animeList, setAnimeList] = useState([]);

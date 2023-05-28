@@ -1,0 +1,52 @@
+#navCom {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+}
+#navCom .logo {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 0;
+  position: relative;
+}
+
+.fluidcontent {
+  height: 80px;
+  width: 100%;
+}
+
+.fluid.container {
+  display: flex;
+  align-content: space-between;
+  width: 100%;
+  align-content: start;
+}
+
+@media screen and (max-width: 1500px) {
+  #navCom {
+    display: flex;
+    align-content: space-between;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .fluidcontent {
+    height: 140px;
+    width: 100%;
+  }
+  .logo {
+    margin-left: 10px;
+    align-items: start;
+  }
+  .fluid.container {
+    margin-inline: 10px;
+    background-color: rgba(36, 37, 38, 0.706);
+    margin-top: 10px;
+    width: auto;
+  }
+}/*# sourceMappingURL=NavCompleto.css.map */

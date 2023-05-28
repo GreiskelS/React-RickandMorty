@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { allCharacters } from './functions/Functions'
-import './Main.css'
+import './css/Main.css'
 
 const Mainpage = () => {
     const [characters, setCharacters] = useState(null)

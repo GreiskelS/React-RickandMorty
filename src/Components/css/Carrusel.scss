@@ -3,11 +3,11 @@
     object-fit: cover;
     height: 1000px;
     width: 100%;
+    p h3 {
+        color: black;
+    }
 }
 
-.Carouselmain p h3 {
-    color: black;
-}
 
 @media screen and (max-width: 740px) {
     .Carouselmain img{

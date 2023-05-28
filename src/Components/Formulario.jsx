@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import ReCAPTCHA from "react-google-recaptcha"
 import React, { useRef, useState } from 'react';
-import  './formulario.css';
+import  './css/formulario.css';
 
 function Formulario() {
   const [captchaValido, cambiarCaptchaValido] = useState(null);

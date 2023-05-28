@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './characters.css'
+import './css/characters.css'
 import { useParams } from 'react-router-dom'
 import { uniqueCharacter } from './functions/Functions'
 

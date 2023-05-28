@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import './Inicio.css';
+import './css/Inicio.css';
 
 const Inicio = () => {
   return (
