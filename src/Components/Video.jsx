@@ -4,7 +4,7 @@ import './css/Video.css'
 const Video = () => {
   return (
     <div id='video'>
-     <iframe width="100%" height="1120" src="https://www.youtube.com/embed/T_QAxvPjjBc" title="Rick y Morty | Intro en español " allow="autoplay"  muted></iframe> 
+     <iframe width="60%" height="620" src="https://www.youtube.com/embed/T_QAxvPjjBc" title="Rick y Morty | Intro en español " allow="autoplay"  muted></iframe> 
     </div>
   )
 }

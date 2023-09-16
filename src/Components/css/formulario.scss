@@ -4,14 +4,24 @@
     align-content: center;
     max-width: 40%;
     margin: auto;
-   
 }
 
 div #formulario {
-    height: 350px;
+    height: 250px;
+    object-fit: contain;
 }
 
 .error-captcha {
     height: 100px;
     width: 100%;
+}
+
+textarea#textarea {
+    height: 70px;
+    width: 15rem;
+
+}
+
+#button {
+    background-color: black;
 }

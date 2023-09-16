@@ -7,10 +7,21 @@
 }
 
 div #formulario {
-  height: 350px;
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .error-captcha {
   height: 100px;
   width: 100%;
+}
+
+textarea#textarea {
+  height: 70px;
+  width: 15rem;
+}
+
+#button {
+  background-color: black;
 }/*# sourceMappingURL=formulario.css.map */

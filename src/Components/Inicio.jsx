@@ -11,7 +11,7 @@ const Inicio = () => {
             <Link to="/Inicio"></Link>
           </li>
           <li>
-            <Link to="/Rick and Morty"></Link>
+            <Link to="/RickandMorty"></Link>
           </li>
           <li>
             <Link to="/suscriptores"></Link>

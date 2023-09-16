@@ -6,16 +6,14 @@
   height: 100px;
   width: 100%;
   position: fixed;
-  z-index: 3;
-  .logo {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    margin-left: 10px;
-    margin-right: 0;
-    position: relative;
-      }
+  z-index: 3; 
 }
+img.logo {
+  // position: relative;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 0;
+    }
 
 .fluidcontent {
   height: 80px;

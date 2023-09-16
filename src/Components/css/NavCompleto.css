@@ -7,13 +7,11 @@
   position: fixed;
   z-index: 3;
 }
-#navCom .logo {
-  height: 70px;
-  width: 70px;
+
+img.logo {
   border-radius: 50%;
   margin-left: 10px;
   margin-right: 0;
-  position: relative;
 }
 
 .fluidcontent {
