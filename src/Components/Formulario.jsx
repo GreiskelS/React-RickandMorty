@@ -1,38 +1,59 @@
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import React from 'react';
 import './css/formulario.css';
+import React from 'react';
+import Nav from 'react-bootstrap/Nav';
+import { useForm, ValidationError } from '@formspree/react';
 
-function Formulario() {
-
-
+function ContactForm() {
+  const [state, handleSubmit] = useForm("xqkoobgq");
+  if (state.succeeded) {
+      return  <p>Thanks for contact us! <br /> <button type="submit" 
+      className="btn btn-info" 
+      id='buttoninfo' 
+      disabled={state.submitting}
+      ><Nav.Link href="/Inicio">Another mail</Nav.Link>
+      </button><br /></p> ;
+  }
   return (
     <div id='formulario'>
-      <Form >
-        <h1>Log in</h1>
-        <Form.Group controlId="formBasicEmail" action="https://formspree.io/f/xqkoobgq"
-          method="POST">
-          <Form.Label>Mail</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" name="email" />
-          <Form.Text className="text-muted">
-            <label>
-              <textarea name="message" id="textarea" placeholder="Your message"></textarea>
-            </label>
-          </Form.Text>
-        </Form.Group>
-        <Form.Group >
-        </Form.Group>
-        <Form.Group controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Check me out" required />
-        </Form.Group>
-    
-        <Button variant="primary" type="submit" className='button' id='button'>
-          Submit
-        </Button>
-
-      </Form>
+      <form onSubmit={handleSubmit} className='emailform'>
+      <label htmlFor="email" >
+        ¡Contact Us! ✉️ 
+      </label>
+      <br />
+      <input
+        id="email"
+        type="email" 
+        name="email"
+        placeholder="Email address" 
+        required
+      />
+      <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+      />
+      <br />
+      <textarea
+        id="message"
+        name="message"
+        placeholder=" Enter your message" required
+      />
+      <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
+      <br />
+      <button type="submit" className="btn btn-info" id='buttoninfo' disabled={state.submitting}>
+        Submit
+      </button>
+    </form>
     </div>
   );
 }
-
+function Formulario() {
+  return (
+    <ContactForm />
+  );
+}
 export default Formulario;

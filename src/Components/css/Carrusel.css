@@ -2,11 +2,17 @@
   padding-top: 80px;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 600px;
-  width: 80%;
+  height: 500px;
+  width: 100%;
+  position: relative;
 }
 .Carouselmain img p h3 {
   color: black;
+}
+
+.Carouselmain {
+  height: 500px;
+  width: 100%;
 }
 
 @media screen and (max-width: 740px) {
@@ -14,7 +20,8 @@
     padding-top: 70px;
     -o-object-fit: cover;
        object-fit: cover;
-    height: 500px;
-    width: 80%;
+  }
+  .Carouselmain {
+    width: auto;
   }
 }/*# sourceMappingURL=Carrusel.css.map */

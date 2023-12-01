@@ -1,12 +1,15 @@
 #formulario {
     display: flex;
-    align-items: center;
+    position:relative;
     align-content: center;
-    max-width: 40%;
-    margin: auto;
+    max-width: auto;
+    text-align: center;
+    font-size: 23px;
+    color: black;
+    margin: 1rem;
 }
 
-div #formulario {
+div#formulario {
     height: 250px;
     object-fit: contain;
 }
@@ -17,11 +20,46 @@ div #formulario {
 }
 
 textarea#textarea {
-    height: 70px;
-    width: 15rem;
-
+    height: 100px;
+    width: 100%;
 }
 
-#button {
-    background-color: black;
+#buttoninfo {
+    background-color: rgb(172, 172, 226);
+    border: none;
+    color: rgb(87, 89, 91);
 }
+
+#buttoninfo:hover {
+    background-color: rgb(62, 62, 189);
+    border: none;
+    color: rgb(207, 210, 214);
+}
+
+input#email {
+    height: 2rem;
+    width: 20rem;
+    margin: 1rem;
+    font-size: 15px;
+    background-color: rgba(211, 211, 225, 0.842);
+    border-style: hidden;
+}
+
+textarea#message {
+    height: 7rem;
+    width: 20rem;
+    font-size: 15px;
+    background-color: rgba(211, 211, 225, 0.842);
+    border-style: hidden;
+}
+
+@media screen and (max-width: 740px) {
+    textarea#message {
+        height: 5rem;
+        width: 13rem;
+    }
+    input#email {
+        height: 2rem;
+        width: 13rem;
+    }  
+    }

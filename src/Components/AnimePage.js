@@ -30,7 +30,7 @@ const AnimePage = () => {
 
   return (
     <>
-      <h1>Top Anime</h1>
+      <h1 className='titletop'>Top Anime</h1>
       <div className="anime-grid">
         {animeList.map((anime, index) => (
           <div

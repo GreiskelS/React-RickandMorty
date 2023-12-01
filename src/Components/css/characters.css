@@ -4,10 +4,8 @@
   grid-template-rows: auto;
   gap: 2px 2px;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
   background: rgb(2, 1, 29);
-  background-image: linear-gradient(#010e04, #1d4019, #7cb48f, #010e03);
+  background-image: linear-gradient(#010e04, #191940, #7c8db4, #01010e);
   background-size: 500%;
   animation: animado 10s infinite;
   overflow: hidden;
@@ -21,15 +19,8 @@
   text-shadow: 2px 2px 2px black;
 }
 
-.card-body {
-  height: 500px;
-  width: 22rem;
-  -o-object-fit: contain;
-     object-fit: contain;
-  justify-content: center;
-  align-items: center;
+div.card-body {
   text-align: center;
-  margin-left: 10px;
   border-radius: 18px 18px 18px 0px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.842);
@@ -69,6 +60,20 @@ p {
   color: #4a4646;
 }
 
+#buttoncharacter {
+  background-color: rgb(172, 172, 226);
+  border: none;
+  color: rgb(87, 89, 91);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#buttoncharacter:hover {
+  background-color: rgb(62, 62, 189);
+  border: none;
+  color: rgb(207, 210, 214);
+}
+
 @media screen and (max-width: 1000px) {
   .contenedorCharacter {
     grid-template-columns: repeat(1, 1fr);
@@ -83,12 +88,19 @@ p {
     -o-object-fit: contain;
        object-fit: contain;
   }
-}
-@media screen and (min-width: 1000px) {
-  .card-body {
-    height: 800px;
-    width: 35rem;
+  div.card-body {
+    height: 32rem;
+    width: 22rem;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+}
+@media screen and (max-width: 740px) {
+  .card {
+    height: auto;
+    width: auto;
+  }
+  .contenedorCharacter {
+    width: 100%;
   }
 }/*# sourceMappingURL=characters.css.map */

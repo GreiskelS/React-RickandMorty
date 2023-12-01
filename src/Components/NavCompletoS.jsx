@@ -8,7 +8,7 @@ function NavCompletoS() {
     <div id="navCom">
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='fluidcontent'>
       <div>
-          <img className="logo" src="../img/logo.png" height="70px" width="70px" alt="RickandMortyReact" href="/Inicio" />
+      <img id="logo" src="https://miro.medium.com/v2/resize:fit:840/1*d5g31wvUpmILqzge216Fug.png" alt="" />
       </div>
       <Container className='fluid'>
         <Navbar.Brand href="/Inicio">Home</Navbar.Brand>
@@ -16,11 +16,11 @@ function NavCompletoS() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/RickandMorty">Rick and Morty</Nav.Link>
-            <Nav.Link href="/animes">Animes</Nav.Link>
+            <Nav.Link href="/animes">Anime's</Nav.Link>
             </Nav>
            <Nav>
              <Nav.Link  href="/suscriptores">
-              Contact
+             Subscribers
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

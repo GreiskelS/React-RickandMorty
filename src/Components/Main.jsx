@@ -15,7 +15,7 @@ const Mainpage = () => {
                 characters.map(characters => (
                     <div key={characters.id}>
                         <div className="cardapp">
-                            <img src={characters.image} alt="" />
+                            <img src={characters.image} alt="rick image" />
                             <div className="cardapp-body">
                                 <a href={`/characters/${characters.id}`}>➡️ {characters.name}</a>
                             </div>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './css/UserPage.css';
 
-const UserPage = () => {
+const Userpage = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
@@ -44,4 +44,4 @@ const UserPage = () => {
   );
 };
 
-export default UserPage;
+export default Userpage;

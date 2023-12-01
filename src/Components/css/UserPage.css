@@ -2,6 +2,7 @@
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+  margin-top: 10px;
 }
 
 .button-container button {

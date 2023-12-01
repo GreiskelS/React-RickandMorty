@@ -8,11 +8,12 @@
   position: fixed;
   z-index: 3; 
 }
-img.logo {
-  // position: relative;
-  border-radius: 50%;
-  margin-left: 10px;
-  margin-right: 0;
+
+    #logo {
+      margin-left: 20px;
+      align-items: start;
+      height: 70px;
+      width: 70px;
     }
 
 .fluidcontent {
@@ -38,11 +39,15 @@ img.logo {
   .fluidcontent {
     height: 140px;
     width: 100%;
+    overflow: hidden;
+
   }
 
-  .logo {
-    margin-left: 10px;
+  #logo {
+    margin-left: 20px;
     align-items: start;
+    height: 70px;
+    width: 70px;
   }
 
   .fluid.container {

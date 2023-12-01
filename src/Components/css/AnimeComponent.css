@@ -5,6 +5,7 @@
   padding: 20px;
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
 .anime-card {
@@ -92,6 +93,12 @@
 }
 .modal-content-anime button button:hover {
   background-color: #52489c;
+}
+
+.titletop {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 1500px) {

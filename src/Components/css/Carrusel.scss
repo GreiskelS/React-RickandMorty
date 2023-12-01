@@ -1,19 +1,27 @@
 .Carouselmain img{
     padding-top: 80px;
     object-fit: cover;
-    height: 600px;
-    width: 80%;
+    height: 500px;
+    width: 100%;
+    position: relative;
     p h3 {
         color: black;
     }
 }
+
+.Carouselmain {
+    height: 500px;
+    width: 100%;
+}
+
 
 
 @media screen and (max-width: 740px) {
     .Carouselmain img{
         padding-top: 70px;
         object-fit: cover;
-        height: 500px;
-        width: 80%;
+    }
+    .Carouselmain {
+        width: auto;
     }
     }
