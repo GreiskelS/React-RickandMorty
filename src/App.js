@@ -19,14 +19,16 @@ function App() {
       <Carrusel />
       <BrowserRouter>
         <Routes>
-          <Route path='/Inicio' element={<Inicio />} ></Route>
-          <Route path='/RickandMorty' element={<Mainpage />} ></Route>
-          <Route path='/characters/:id' element={<Characters />} ></Route>
+          <Route path="/" element={<Inicio />} ></Route>
+          <Route path="/rickandmorty" element={<Mainpage />} ></Route>
+          <Route path="/characters/:id" element={<Characters />} ></Route>
           <Route path="/suscriptores" element={<UserPage />} ></Route>
           <Route path="/animes" element={<AnimePage />} ></Route>
         </Routes>
       </BrowserRouter>
+      <div id='videosection'>
       <Video />
+      </div>
       <Footer />
 
     </div>

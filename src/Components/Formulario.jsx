@@ -15,8 +15,8 @@ function ContactForm() {
   }
   return (
     <div id='formulario'>
-      <form onSubmit={handleSubmit} className='emailform'>
-      <label htmlFor="email" >
+      <form onSubmit={handleSubmit} id='emailform' className='emailform'>
+      <label htmlFor="email">
         ¡Contact Us! ✉️ 
       </label>
       <br />
@@ -24,24 +24,14 @@ function ContactForm() {
         id="email"
         type="email" 
         name="email"
-        placeholder="Email address" 
+        placeholder=" Email address" 
         required
-      />
-      <ValidationError 
-        prefix="Email" 
-        field="email"
-        errors={state.errors}
       />
       <br />
       <textarea
         id="message"
         name="message"
         placeholder=" Enter your message" required
-      />
-      <ValidationError 
-        prefix="Message" 
-        field="message"
-        errors={state.errors}
       />
       <br />
       <button type="submit" className="btn btn-info" id='buttoninfo' disabled={state.submitting}>

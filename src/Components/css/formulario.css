@@ -39,7 +39,7 @@ textarea#textarea {
 
 input#email {
   height: 2rem;
-  width: 20rem;
+  width: 22rem;
   margin: 1rem;
   font-size: 15px;
   background-color: rgba(211, 211, 225, 0.842);
@@ -48,7 +48,7 @@ input#email {
 
 textarea#message {
   height: 7rem;
-  width: 20rem;
+  width: 22rem;
   font-size: 15px;
   background-color: rgba(211, 211, 225, 0.842);
   border-style: hidden;

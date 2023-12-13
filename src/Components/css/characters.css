@@ -19,6 +19,15 @@
   text-shadow: 2px 2px 2px black;
 }
 
+div.contenedor-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.cardapp {
+  width: 15rem;
+}
+
 div.card-body {
   text-align: center;
   border-radius: 18px 18px 18px 0px;
@@ -43,8 +52,6 @@ div.card-body {
 .card-img {
   -o-object-fit: contain;
      object-fit: contain;
-  width: 20rem;
-  height: 61rem;
   background: rgb(4, 23, 4);
   position: relative;
   transition: all 350ms;
@@ -94,6 +101,10 @@ p {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  div.contenedor-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 740px) {
   .card {
@@ -102,5 +113,16 @@ p {
   }
   .contenedorCharacter {
     width: 100%;
+  }
+  div.contenedor-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  div.card-body {
+    height: 22rem;
+    width: 12rem;
+  }
+  div.card-body h2, div.card-body p {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=characters.css.map */

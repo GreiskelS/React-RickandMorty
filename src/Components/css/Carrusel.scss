@@ -1,4 +1,4 @@
-.Carouselmain img{
+.Carouselmain img {
     padding-top: 80px;
     object-fit: cover;
     height: 500px;
@@ -9,19 +9,29 @@
     }
 }
 
-.Carouselmain {
+div.Carouselmain {
     height: 500px;
     width: 100%;
+    p {
+        color: black;
+        text-shadow: 1px 1px 1px white;
+
+    }
+    h3 {
+        color: white;
+        text-shadow: 2px 2px 2px black;
+    }
 }
 
 
-
 @media screen and (max-width: 740px) {
-    .Carouselmain img{
+    .Carouselmain img {
         padding-top: 70px;
         object-fit: cover;
+        width: 100%;
     }
+
     .Carouselmain {
-        width: auto;
+        width: 100%;
     }
-    }
+}

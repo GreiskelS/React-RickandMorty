@@ -3,7 +3,7 @@ import './css/Carrusel.css';
 
 export default function Carrusel() {
   return (
-    <div>
+    <div id='Carouselmain'>
     <Carousel slide={false} className='Carouselmain'>
       <Carousel.Item>
         <img

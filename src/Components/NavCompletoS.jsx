@@ -11,18 +11,14 @@ function NavCompletoS() {
       <img id="logo" src="https://miro.medium.com/v2/resize:fit:840/1*d5g31wvUpmILqzge216Fug.png" alt="" />
       </div>
       <Container className='fluid'>
-        <Navbar.Brand href="/Inicio">Home</Navbar.Brand>
+        <Navbar.Brand href="/"></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/RickandMorty">Rick and Morty</Nav.Link>
+            <Nav.Link href="/rickandmorty">Rick and Morty</Nav.Link>
             <Nav.Link href="/animes">Anime's</Nav.Link>
+            <Nav.Link  href="/suscriptores">Subscribers</Nav.Link>
             </Nav>
-           <Nav>
-             <Nav.Link  href="/suscriptores">
-             Subscribers
-            </Nav.Link>
-          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

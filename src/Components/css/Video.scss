@@ -1,27 +1,33 @@
-  #video {
-    width: 19rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
+  div#video {
     object-fit: cover;
     border: none;
-    background-color: white;
     color: white;
-    margin: 1%;
   }
 
-  .backgroundvideo {
-    background-color: white;
+  section#video-contact {
+    display: flex;
   }
 
-  @media screen and (max-width: 840px) {
-    .backgroundvideo {
-      height: 15rem;
-      width: 18rem;
-    }
+  #video.backgroundvideo {
+    width: auto;
+    background-color: rgba(204, 201, 198, 0.301);
+  }
 
-    #video {
+  iframe.backgroundvideo {
+    width: 600px;
+    height: 400px;
+  }
+
+  @media screen and (max-width: 1500px) {
+    section#video-contact {
+      display: flex;
       flex-direction: column;
+      align-items: center;
     }
+
+    iframe.backgroundvideo {
+      width: 400px;
+      height: 200px;
+    }
+
   }

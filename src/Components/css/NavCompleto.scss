@@ -10,13 +10,14 @@
 }
 
     #logo {
+      position: static;
       margin-left: 20px;
       align-items: start;
       height: 70px;
       width: 70px;
     }
 
-.fluidcontent {
+.fluidcontent.navbar-expand-lg {
   height: 80px;
   width: 100%;
 }
@@ -36,7 +37,7 @@
 
   }
 
-  .fluidcontent {
+  div.fluidcontent {
     height: 140px;
     width: 100%;
     overflow: hidden;

@@ -10,9 +10,17 @@
   color: black;
 }
 
-.Carouselmain {
+div.Carouselmain {
   height: 500px;
   width: 100%;
+}
+div.Carouselmain p {
+  color: black;
+  text-shadow: 1px 1px 1px white;
+}
+div.Carouselmain h3 {
+  color: white;
+  text-shadow: 2px 2px 2px black;
 }
 
 @media screen and (max-width: 740px) {
@@ -20,8 +28,9 @@
     padding-top: 70px;
     -o-object-fit: cover;
        object-fit: cover;
+    width: 100%;
   }
   .Carouselmain {
-    width: auto;
+    width: 100%;
   }
 }/*# sourceMappingURL=Carrusel.css.map */
