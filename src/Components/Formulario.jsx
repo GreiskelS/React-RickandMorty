@@ -1,7 +1,7 @@
 import './css/formulario.css';
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xqkoobgq");
@@ -16,7 +16,7 @@ function ContactForm() {
   return (
     <div id='formulario'>
       <form onSubmit={handleSubmit} id='emailform' className='emailform'>
-      <label htmlFor="email">
+      <label id='emailform' htmlFor="email">
         ¡Contact Us! ✉️ 
       </label>
       <br />
