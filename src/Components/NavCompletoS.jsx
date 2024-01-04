@@ -8,7 +8,7 @@ function NavCompletoS() {
     <div id="navCom">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='fluidcontent'>
         <div>
-          <img id="logo" src="https://miro.medium.com/v2/resize:fit:840/1*d5g31wvUpmILqzge216Fug.png" alt="" />
+          <img id="logo" src="https://miro.medium.com/v2/resize:fit:840/1*d5g31wvUpmILqzge216Fug.png" alt="logo" />
         </div>
         <Container className='fluid'>
           <Navbar.Brand href="/"></Navbar.Brand>
