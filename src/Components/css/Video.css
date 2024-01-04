@@ -19,6 +19,13 @@ iframe.backgroundvideo {
   height: 400px;
 }
 
+div#videosection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 1500px) {
   section#video-contact {
     display: flex;

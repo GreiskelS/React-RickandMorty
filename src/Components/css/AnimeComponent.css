@@ -21,6 +21,7 @@
   position: relative;
   -o-object-fit: cover;
      object-fit: cover;
+  image-rendering: optimizeQuality;
 }
 .anime-card h3 {
   font-size: 18px;
@@ -51,6 +52,7 @@
   cursor: pointer;
   -o-object-fit: contain;
      object-fit: contain;
+  image-rendering: optimizeQuality;
 }
 
 .modal-anime {

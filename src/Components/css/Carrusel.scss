@@ -4,6 +4,7 @@
     height: 500px;
     width: 100%;
     position: relative;
+
     p h3 {
         color: black;
     }
@@ -12,17 +13,21 @@
 div.Carouselmain {
     height: 500px;
     width: 100%;
+
     p {
         color: black;
         text-shadow: 1px 1px 1px white;
-
     }
+
     h3 {
         color: white;
         text-shadow: 2px 2px 2px black;
     }
 }
 
+.carousel {
+    width: 100%;
+}
 
 @media screen and (max-width: 740px) {
     .Carouselmain img {

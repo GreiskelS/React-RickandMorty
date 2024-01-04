@@ -20,7 +20,7 @@
   transition: transform 0.3s ease;
   position: relative;
   object-fit: cover;
-
+  image-rendering:optimizeQuality;
   h3 {
     font-size: 18px;
     margin-top: auto;
@@ -42,7 +42,6 @@
 .anime-card:hover {
   transform: translateY(-10px);
   transform: translate(0, -10px);
-
 }
 
 .anime-card img {
@@ -52,6 +51,7 @@
   margin-bottom: 10px;
   cursor: pointer;
   object-fit: contain;
+  image-rendering:optimizeQuality;
 }
 
 .modal-anime {

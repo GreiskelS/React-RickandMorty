@@ -16,7 +16,9 @@ function App() {
   return (
     <div >
       <NavCompleto />
+      <div className='carousel'>
       <Carrusel />
+      </div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Inicio />} ></Route>
@@ -30,7 +32,6 @@ function App() {
       <Video />
       </div>
       <Footer />
-
     </div>
   );
 }
