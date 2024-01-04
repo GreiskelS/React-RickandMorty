@@ -16,9 +16,7 @@ function App() {
   return (
     <div >
       <NavCompleto />
-      <div className='carousel'>
       <Carrusel />
-      </div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Inicio />} ></Route>
